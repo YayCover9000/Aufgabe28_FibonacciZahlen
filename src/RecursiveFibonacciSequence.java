@@ -24,6 +24,7 @@ public class RecursiveFibonacciSequence {
             last = next;
             next = old_last + next;
         }
+        System.out.println(next);
         return next;
     }
 }
